@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="platform-customer" parallel="true" thread-count="3">
+    <test name="case">
+        <classes>
+            <class name="com.puhui.interfaceTest.entrustCaseCollectionTest" />
+        </classes>
+    </test>
+</suite>

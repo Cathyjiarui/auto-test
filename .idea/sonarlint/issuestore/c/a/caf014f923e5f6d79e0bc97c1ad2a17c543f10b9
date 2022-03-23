@@ -1,0 +1,8 @@
+
+osquid:S1192&"LDefine a constant instead of duplicating this literal "13910527756" 4 times.(×øöøÿÿÿÿÿ8ï‹Àôş,
+usquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³î¬Àüÿÿÿÿ8ï‹Àôş,
+psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘¾ƒ8ï‹Àôş,
+osquid:S00117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úéõ=8ï‹Àôş,
+psquid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õéø‹8ï‹Àôş,
+_squid:S3457""AFormat specifiers should be used instead of string concatenation.(³™“®8ï‹Àôş,
+Usquid:S2629""7Use the built-in formatting to construct this argument.(³™“®8ï‹Àôş,

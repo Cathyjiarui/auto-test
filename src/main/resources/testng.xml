@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="puhui-repay-autotest" parallel="classes" thread-count="5">
+    <suite-files>
+        <!-- 测试入案接口 -->
+        <suite-file path="testngSuite/repay-entrustCaseCollection-test.xml" />
+    </suite-files>
+    <listeners>
+        <listener class-name="com.puhui.utils.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

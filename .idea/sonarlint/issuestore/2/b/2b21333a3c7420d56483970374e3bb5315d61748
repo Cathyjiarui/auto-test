@@ -1,0 +1,7 @@
+
+qsquid:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(É¸Íõ
+hsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(‰²¢ùÿÿÿÿ
+osquid:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Š¶Òœþÿÿÿÿ
+4squid:S1643"Use a StringBuilder instead.(¨ð¿‡
+@squid:S1604‘"(Make this anonymous inner class a lambda(É¸Íõ
+nsquid:S3776!"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ØõŽÕüÿÿÿÿ

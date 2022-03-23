@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: "@project.artifactId@"
+  datasource:
+    username: root
+    password: OYLDASuPfbpsEQB6
+    url: jdbc:mysql://10.10.231.135:3306/puhui_repay?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'X'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 20
+
+info:
+  app:
+    name: "@project.artifactId@"
+    description: "@project.description@"
+    version: "@project.version@"
+  build:
+    artifact: "@project.artifactId@"
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+
+oauth:
+  serverUrl: http://uaa.galaxy.test/uaa
+  clientId: puhui-repay-cloud-server
+  secret: puhui-repay-cloud-server
+
+server:
+  port: 30456
+
+logging:
+  level:
+    com.puhui.mapper: debug
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: id_worker
+      field-strategy: not_empty

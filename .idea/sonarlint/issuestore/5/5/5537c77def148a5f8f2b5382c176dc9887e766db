@@ -1,0 +1,4 @@
+
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œéûö8û¼™Ìÿ,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œéûö8û¼™Ìÿ,
+lsquid:UselessImportCheck"<Remove this unused import 'org.apache.ibatis.type.JdbcType'.(Ã¨¥°úÿÿÿÿ8‘«Ñƒ-
